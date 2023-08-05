@@ -1,7 +1,7 @@
 
 import './App.css';
 import  Hero  from './components/Hero.jsx';
-import TopMenu from './components/Navbar.jsx';
+import TopMenu from './components/TopMenu.jsx';
 
 function App() {
   return (

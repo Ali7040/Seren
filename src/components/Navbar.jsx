@@ -23,31 +23,36 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar-container ${scrolled ? "scrolled" : ""} p-5`}>
-      <div className="top-menu">
-        <div className="logo">
-        <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          
-        </div>
-        <ul className="nav-links">
-          <li>
-            <a href="#" className="nav-link">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link">
-              <span className="signUp-btn">Sign up</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<nav className={`navbar-container relative p-5 ${scrolled ? "scrolled" : ""}`}>
+<div className="blur-bg absolute inset-0 z-0 filter blur-[34px] bg-gradient-to-br from-rose-600 via-fuchsia-600 to-violet-600"></div>
+  <div className="top-menu relative">
+    <div className="logo">
+      <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+    </div>
+    <ul className="nav-links">
+      <li>
+        <a href="#" className="nav-link">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="#" className="nav-link">
+          About
+        </a>
+      </li>
+      <li>
+        <a href="#" className="nav-link">
+          <span className="signUp-btn">Sign up</span>
+        </a>
+      </li>
+    </ul>
+   
+  </div>
+ 
+</nav>
+
+
+
   );
 };
 

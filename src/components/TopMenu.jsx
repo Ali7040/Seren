@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import logo from "../assets/Logo.png";
 
 
-const Navbar = () => {
+const TopMenu = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -56,4 +56,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default TopMenu;

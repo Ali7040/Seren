@@ -20,7 +20,7 @@ code {
 /* Navbar.css */
 .navbar-container {
  /* background-color: rgba(255, 255, 255, 0.8);  Blurred background */
-  backdrop-filter: blur(7px);
+  /* backdrop-filter: blur(4px); */
   position: relative;
   top: 0;
   left: 0;

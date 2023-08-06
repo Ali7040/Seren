@@ -27,22 +27,22 @@ const TopMenu = () => {
 <div className="blur-bg absolute inset-0 z-0 filter blur-[34px] bg-gradient-to-br from-rose-600 via-fuchsia-600 to-violet-600"></div>
   <div className="top-menu relative">
     <div className="logo">
-      <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+      <img src={logo} alt='logo' className='w-9 h-9 object-contain cursor-pointer' />
     </div>
     <ul className="nav-links">
       <li>
-        <a href="#" className="nav-link">
+        <a href="#" className="nav-link cursor-pointer">
           Home
         </a>
       </li>
       <li>
-        <a href="#" className="nav-link">
+        <a href="#" className="nav-link cursor-pointer">
           About
         </a>
       </li>
       <li>
         <a href="#" className="nav-link">
-          <span className="signUp-btn">Sign up</span>
+          <span className="signUp-btn cursor-pointer">Sign up</span>
         </a>
       </li>
     </ul>

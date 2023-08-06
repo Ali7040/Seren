@@ -20,14 +20,14 @@ const Hero = () => {
                <div className="absolute top-[0px] left-[0px] w-[204px] h-12">
                  <div className="absolute h-full w-full top-[0px] right-[0px] bottom-[0px] left-[0px] ">
                   <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-3xs [background:conic-gradient(from_180deg_at_50%_50%,_#5137ae_-40.48deg,_#6c35af_107.08deg,_#cc75db_177.49deg,_#5137ae_319.52deg,_#6c35af_467.08deg)] [filter:blur(34px)]" />
-                    <div className="absolute rounded-lg h-[95.83%] w-[98.53%] top-[2.08%] right-[0.74%] bottom-[2.08%] left-[0.74%]  [background:linear-gradient(180deg,_rgba(254,_200,_241,_0.9),_rgba(254,_200,_241,_0)_40.39%),_radial-gradient(50%_50%_at_50%_50%,_#602ea6,_#c977d6)] shadow-[0px_-1px_8px_#9375b6_inset,_0px_0px_5px_#fface4_inset,_0px_30px_30px_rgba(0,_0,_0,_0.4)] overflow-hidden flex flex-row py-3.5 px-[26px] box-border items-center justify-start gap-[10px]">
+                    <div className="absolute cursor-pointer rounded-lg h-[95.83%] w-[98.53%] top-[2.08%] right-[0.74%] bottom-[2.08%] left-[0.74%]  [background:linear-gradient(180deg,_rgba(254,_200,_241,_0.9),_rgba(254,_200,_241,_0)_40.39%),_radial-gradient(50%_50%_at_50%_50%,_#602ea6,_#c977d6)] shadow-[0px_-1px_8px_#9375b6_inset,_0px_0px_5px_#fface4_inset,_0px_30px_30px_rgba(0,_0,_0,_0.4)] overflow-hidden flex flex-row py-3.5 px-[26px] box-border items-center justify-start gap-[10px]">
                      <img
                       className="relative w-[18px] h-[18px]"
                       alt=""
                       src={Vector}
                     />
                     
-               <div className="relative leading-[23px] [text-shadow:0px_10px_20px_rgba(0,_0,_0,_0.25)] text-gray-300">
+               <div className="relative leading-[23px] [text-shadow:0px_10px_20px_rgba(0,_0,_0,_0.25)] text-gray-300 ">
                 Generate Story
                </div>
               </div>

@@ -1,26 +1,26 @@
-import React, { useEffect, useState } from "react";
-import logo from "../assets/Logo.png";
+import React, { useEffect, useState } from "react"
+import logo from "../assets/Logo.png"
 
 
 const TopMenu = () => {
-  const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [active, setActive] = useState("")
+  const [toggle, setToggle] = useState(false)
+  const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
+      const scrollTop = window.scrollY
       if (scrollTop > 100) {
-        setScrolled(true);
+        setScrolled(true)
       } else {
-        setScrolled(false);
+        setScrolled(false)
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [])
 
   return (
 <nav className={`navbar-container relative p-5 ${scrolled ? "scrolled" : ""}`}>
@@ -53,7 +53,7 @@ const TopMenu = () => {
 
 
 
-  );
-};
+  )
+}
 
-export default TopMenu;
+export default TopMenu

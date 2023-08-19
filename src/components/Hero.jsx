@@ -1,5 +1,5 @@
-import React from "react";
-import Vector from "../assets/Vector.png";
+import React from "react"
+import Vector from "../assets/Vector.png"
 
 const Hero = () => {
   return (
@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
